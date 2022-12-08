@@ -5,3 +5,12 @@ version = 3
 [[package]]
 name = "aoc-2022"
 version = "0.1.0"
+dependencies = [
+ "sortby",
+]
+
+[[package]]
+name = "sortby"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "91a8bf0875291ca48d15373c726fd3ff66b494473278c70f42601512516bb9ef"
